@@ -239,8 +239,9 @@ Procedure.s getTimestamp(now.l,timezone.s)
   TimeStamp.s = day  + FormatDate(", %dd ",now) + month + FormatDate(" %yyyy %hh:%ii:%ss ",now) + timezone
   ProcedureReturn TimeStamp.s
 EndProcedure
-; IDE Options = PureBasic 5.40 LTS Beta 4 (Windows - x86)
-; ExecutableFormat = Shared Dll
+; IDE Options = PureBasic 5.42 LTS (MacOS X - x64)
+; ExecutableFormat = Shared .dylib
+; Folding = --
 ; UseMainFile = libmegaplan.pb
-; Executable = libmegaplan.dll
-; EnableBuildCount = 1
+; Executable = libmegaplan.dylib
+; EnableBuildCount = 2

@@ -1,7 +1,9 @@
 # libmegaplan
 Library to work with [Megaplan](http://megaplan.ru) [API](https://help.megaplan.ru/API).  
 ASCII only as it statically linked to libcurl.  
-Windows dll is [here](http://deseven.info/sys/libmegaplan.zip), contact me if you need mac/linux binaries.  
+Windows dll: [libmegaplan.zip](http://deseven.info/sys/libmegaplan.zip)  
+OS X dylib: [libmegaplan-osx.zip](http://deseven.info/sys/libmegaplan-osx.zip)  
+Contact me if you need linux binaries.  
 
 # usage
 **mega_version()** - returns string with lib version  
@@ -10,4 +12,5 @@ Windows dll is [here](http://deseven.info/sys/libmegaplan.zip), contact me if yo
 **mega_comparedates(date1,date2)** - compares dates in Megaplan format (YYYY-MM-DD hh:mm:ss), returns true if the second date is the latter.  
 
 # notes
-If you keep getting failed authorizations while sending queries - doublecheck your timezone and time.
+If you keep getting failed authorizations while sending queries - doublecheck your timezone and time.  
+For PureBasic you can use the included ```pb-wrapper.pb```.  
